@@ -78,6 +78,11 @@ Install dependencies
 npm i playwright-chromium
 ```
 
+if you are using a m1 mac normal playwright won't work, instead install playwright@next
+
+```bash
+npm install playwright@next
+```
 Now you can generate the token using
 
 ```bash
